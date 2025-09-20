@@ -1,0 +1,27 @@
+{
+    "alert_thresholds": {
+        "hypoglycemia": 70,
+        "hyperglycemia": 180,
+        "severe_hyperglycemia": 250,
+        "ketoacidosis_risk": 1.5,
+        "hypo_symptoms_severity": 7
+    },
+    "target_ranges": {
+        "fasting_glucose": "80-130 mg/dL",
+        "postprandial_glucose": "80-180 mg/dL",
+        "hba1c": "<7%",
+        "blood_pressure": "<140/90 mmHg"
+    },
+    "email_alerts": {
+        "enabled": false,
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "",
+        "sender_password": "",
+        "recipient_emails": []
+    },
+    "prediction_settings": {
+        "window_size": 10,
+        "forecast_hours": 4
+    }
+}
